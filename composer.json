@@ -1,0 +1,22 @@
+{
+    "name": "pbjk/ami-adapter",
+    "description": "Adapter between Asterisk AMI clients PHPAGI and PAMI",
+    "license": "Apache-2.0",
+    "require": {
+        "php": ">=5.3.3",
+        "marcelog/pami": "^2"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^9"
+    },
+    "autoload": {
+        "psr-4": {
+            "AmiAdapter\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "AmiAdapter\\Tests\\": "tests/"
+        }
+    }
+}
