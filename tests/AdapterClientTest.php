@@ -2,7 +2,6 @@
 
 namespace AmiAdapter\Tests;
 
-use AmiAdapter\MockAdapterClient;
 use PAMI\Message\Action\ActionMessage;
 use PHPUnit\Framework\TestCase;
 

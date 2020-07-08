@@ -1,7 +1,8 @@
 <?php
 
-namespace AmiAdapter;
+namespace AmiAdapter\Tests;
 
+use AmiAdapter\AdapterClient;
 use PAMI\Client\Impl\ClientImpl as PamiClient;
 use PAMI\Message\Action\ActionMessage;
 
